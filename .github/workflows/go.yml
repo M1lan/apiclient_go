@@ -29,3 +29,6 @@ jobs:
 
     - name: Run
       run: go run main.go
+
+    - name: Push
+      run: git commit -am'pushing new index.html' && git push
