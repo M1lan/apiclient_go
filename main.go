@@ -94,8 +94,7 @@ func generateHTMLTable(users []User, filename string) error {
 }
 
 func fetchUsersFromAPI() ([]User, error) {
-	// TODO: remove -1 during the demo to get all users!
-	userCount := getUserCount() - 1
+	userCount := getUserCount()
 
 	url := apiBaseURL + "/users?per_page=" + strconv.Itoa(userCount)
 	response, err := http.Get(url)
