@@ -31,4 +31,4 @@ jobs:
       run: go run main.go
 
     - name: Push
-      run: git commit -am'pushing new index.html' && git push
+      run: git config --global user.email "milan.santosi@gmail.com" && git config --global user.name "Milan Santosi" && git commit -am'pushing new index.html' && git push
