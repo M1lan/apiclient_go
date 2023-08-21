@@ -124,7 +124,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	err = generateHTMLTable(users, "./gh_pages/all_users.html")
+	err = generateHTMLTable(users, "./gh_pages/index.html")
 	if err != nil {
 		log.Fatal(err)
 	}
