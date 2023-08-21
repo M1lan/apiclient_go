@@ -22,6 +22,6 @@ go.work
 
 ############
 
-all_users.html
-test_table.html
+/all_users.html
+/test_table.html
 
